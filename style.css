@@ -1,0 +1,303 @@
+@font-face
+{
+	font-family: 'Heebo', sans-serif;
+}
+
+body
+{
+	font-family: 'Heebo', sans-serif;
+}
+
+#bloc_page
+{
+	width:1000px;
+	margin:auto;
+}
+
+/*header*/
+header
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+
+#titre_principal
+{
+	display: flex;
+	flex-direction: column;
+}
+
+nav ul
+{
+    list-style: none;
+    display: flex;
+    margin-left: 80px;
+}
+
+nav li
+{
+    margin-right: 100px;
+    margin-bottom: 45px;
+}
+
+nav a
+{
+    font-size: 1.3em;
+    color: black;
+    text-decoration: none;
+    padding-bottom: 3px;
+}
+
+nav a:hover
+{
+    color: black;
+    border-bottom: 3px solid #03BAB3;
+}
+
+#Compte
+{
+	margin-bottom:45px;
+}
+
+/*Box*/
+#banniere_boxe
+{
+	margin-top: 60px;
+}
+
+/*Chaussure*/
+#chaussure h1
+{
+	text-align: center;
+	border-bottom:solid;
+	margin-top: 60px;
+}
+
+#chaussure img
+{
+	margin-top: 0px;
+}
+
+#paire
+{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 50px;
+    margin-left: -80px;
+    padding-bottom: 3px;
+    margin-right: -80px;
+    text-align: center;
+}
+
+#Paire3
+{
+	margin-top: 50px;
+}
+
+/*Blog*/
+#Blog
+{
+	margin-bottom: 30px;
+}
+
+#Blog h1
+{
+	text-align: center;
+	border-bottom: solid;
+	margin-top: 60px;
+	margin-bottom: 50px;
+}
+
+/*Instagram*/
+#Instagram
+{
+	text-align:center;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	color:#03BAB3;
+	background: black;
+	height: 400px;
+	margin-left: -220px;
+	margin-right: -220px;
+	margin-top: 60px;
+}
+
+#photos
+{
+	display: flex;
+	justify-content: space-between;
+	margin-right: 80px;
+	margin-left: 80px;
+}
+
+/*Footer*/
+footer
+{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+
+}
+
+#Contact ul 
+{
+	list-style: none;
+	font-size: 0.8em;
+}
+
+
+#Reseaux
+{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 15px;
+	margin-left: 45px;
+}
+
+#facebook
+{
+	padding-top: 10px;
+}
+
+#instagram
+{
+	padding-left: 14px;
+}
+
+
+
+#Contact
+{
+	margin-top: -20px;
+	margin-right: 50px;
+	font-size: 30px;
+}
+
+
+#Contact ul 
+{
+	list-style: none;
+	font-size: 0.8em;
+}
+
+#Contact li
+{
+	padding-top: 5px;
+	font-weight: bold;
+
+}
+
+#Contact a
+{
+	color:black;
+	text-decoration: none;
+    border-bottom: 3px solid #03BAB3;
+	
+}
+
+/* RESPONSIVE */
+@media all and (max-width: 1024px)
+{
+    #bloc_page
+    {
+        width:auto;
+    }
+}
+
+@media all and (max-width: 1024px)
+{
+	nav
+	{
+		display: none
+	}
+
+	#titre_principal
+	{
+		display:block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#banniere_boxe img
+	{
+		display:block;
+		margin-left: auto;
+		margin-right: auto;
+		height: 420px;
+		width: 500px;
+	}
+	
+
+	#paire
+	{
+		flex-direction: column;
+	}
+
+	#paire img
+	{
+		width: 250px;
+	}
+
+	#Blog
+	{
+		text-align: center;
+	}
+
+	#Blog img
+	{
+		width: 400px;
+	}
+
+	#Instagram
+	{
+		text-align:center;
+		padding-top: 10px;
+		padding-bottom: 20px;
+		color:#03BAB3;
+		background: black;
+		height: 760px;
+		margin-left: -8px;
+		margin-right: -8px;
+	}
+
+	#Instagram img
+	{
+		width: 175px;
+	}
+
+	#photos
+	{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+		align-content: flex-start;
+
+	}
+
+	footer
+	{
+		display: flex;
+		flex-direction : column; 
+		align-content: center;
+	}
+
+
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+

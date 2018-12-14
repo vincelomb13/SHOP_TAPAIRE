@@ -1,0 +1,219 @@
+	@font-face
+{
+	font-family: 'Heebo', sans-serif;
+}
+
+body
+{
+	font-family: 'Heebo', sans-serif;
+
+	width:1000px;
+	margin:auto;
+}
+
+
+header
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+
+#titre_principal
+{
+	display: flex;
+	flex-direction: column;
+}
+
+nav ul
+{
+    list-style: none;
+    display: flex;
+    margin-left: 80px;
+}
+
+nav li
+{
+    margin-right: 100px;
+    margin-bottom: 45px;
+}
+
+nav a
+{
+    font-size: 1.3em;
+    color: black;
+    text-decoration: none;
+    padding-bottom: 3px;
+}
+
+nav a:hover
+{
+    color: black;
+    border-bottom: 3px solid #03BAB3;
+}
+
+				
+#Compte
+{
+	margin-bottom:45px;
+}
+
+
+form 
+{
+ background-color:;
+ }
+
+
+h1 
+{
+	color: #44AFA4;
+	font-weight: bold;
+	font-size: 1.2em;
+
+}
+
+
+h2 
+{
+	color: #E0B22E;
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
+
+h3
+{
+	text-align: center;
+	border-bottom:solid 6px;
+	margin-top: 60px;
+	font-size: 1.5em
+	}
+
+#étape1 img
+{
+	float: left;
+	width: 105px;
+	margin-left: 0px;
+ 	margin-top: 110px;
+ 	padding-right: 30px;
+ 	padding-left: 30px;
+}
+
+
+
+#étape2 img
+{
+	float: left;
+	width: 105px;
+	margin-left: 0px;
+ 	margin-top: 170px;
+ 	padding-right: 30px;
+ 	padding-left: 30px;
+
+}
+
+fieldset 
+{ 
+ margin-bottom:10px;
+ border:3px solid;
+ }
+
+ input, textarea, select, option {
+ background-color:white;
+ }
+
+input, textarea, select {
+
+ border:2px solid #44AFA4;
+ border-radius:3px;
+ padding: 5px;
+ 
+ }
+
+input[type=submit]
+{
+background-color: black;
+color: white;
+width:150px;
+margin-top: 35px;
+margin-left: 800px;
+padding : 10px;
+cursor:pointer;
+border:2px solid black;
+ }
+
+ input:focus, textarea:focus {
+ background-color: #F8FFFF;
+ }
+input[type=submit]:focus
+{
+ background-color:white;
+ color: black;
+}
+
+footer
+{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+
+}
+
+#Contact ul 
+{
+	list-style: none;
+	font-size: 0.8em;
+}
+
+
+#Reseaux
+{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 15px;
+	margin-left: 45px;
+}
+
+#facebook
+{
+	padding-top: 10px;
+}
+
+#instagram
+{
+	padding-left: 14px;
+}
+
+
+
+#Contact
+{
+	margin-top: -20px;
+	margin-right: 50px;
+	font-size: 30px;
+}
+
+
+#Contact ul 
+{
+	list-style: none;
+	font-size: 0.8em;
+}
+
+#Contact li
+{
+	padding-top: 5px;
+	font-weight: bold;
+
+}
+
+#Contact a
+{
+	color:black;
+	text-decoration: none;
+    border-bottom: 3px solid #03BAB3;
+	
+}
+
+
